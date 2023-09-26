@@ -50,11 +50,11 @@ h1 {
 
 .unselected {
     background-color: white;
-    color: grey;
+    color: #c7cdd2;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid grey;
+    border: 2px solid #c7cdd2;
 }
 
 /* /sezione input */
@@ -69,7 +69,6 @@ main {
 
 .container {
     background-color: white;
-    height: 500px;
     width: 1000px;
     margin: 0 auto;
     padding: 50px;
@@ -90,7 +89,7 @@ ul {
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 li::before {
@@ -123,7 +122,7 @@ li::before {
     color: white;
     font-size: 0.8em;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .q1-goals {
@@ -132,7 +131,7 @@ li::before {
     color: white;
     font-size: 0.8em;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .recruiting {
@@ -141,7 +140,7 @@ li::before {
     color: white;
     font-size: 0.8em;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .mobile {
@@ -150,8 +149,25 @@ li::before {
     color: white;
     font-size: 0.8em;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
+.website {
+    display: inline-block;
+    background-color: #ec4a9d;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sales {
+    display: inline-block;
+    background-color: #a3d116;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 /* /main */
