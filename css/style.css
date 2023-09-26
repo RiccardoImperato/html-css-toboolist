@@ -20,6 +20,59 @@ header {
 
 h1 {
     display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 /* /header */
+
+/* sezione input */
+
+.add {
+    width: 1000px;
+    padding: 10px 50px;
+    margin: 3px auto;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #14aaf5;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #14aaf5;
+}
+
+.unselected {
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+/* /sezione input */
+
+/* main */
+
+main {
+    background-color: #f6f8f9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* /main */
