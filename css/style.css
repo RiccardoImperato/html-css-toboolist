@@ -21,6 +21,7 @@ header {
 h1 {
     display: inline-block;
     vertical-align: middle;
+    line-height: 50px;
     font-size: 40px;
 }
 
@@ -71,7 +72,37 @@ main {
     height: 500px;
     width: 1000px;
     margin: 0 auto;
+    padding: 50px;
     box-sizing: border-box;
+    border-radius: 5px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content:'\2713';
+    margin-right: 10px;
+    display: inline-block;
+    color: green;
+    border: 2px solid green;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.editorial{
+    display: inline-block;
+    background-color: #14aaf5;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
     border-radius: 5px;
 }
 
