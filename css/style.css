@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+}
+
+/* /header */
