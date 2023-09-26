@@ -77,16 +77,24 @@ main {
     border-radius: 5px;
 }
 
-h2{
-    margin-bottom: 20px;
+section {
+    margin-bottom: 50px;
 }
 
-ul{
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
     list-style: none;
 }
 
-li::before{
-    content:'\2713';
+li {
+    margin-bottom: 20px;
+}
+
+li::before {
+    content: '\2713';
     margin-right: 10px;
     display: inline-block;
     color: green;
@@ -97,7 +105,19 @@ li::before{
     width: 20px;
 }
 
-.editorial{
+.cross::before {
+    content: '\2717';
+    margin-right: 10px;
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.editorial {
     display: inline-block;
     background-color: #14aaf5;
     color: white;
@@ -105,5 +125,33 @@ li::before{
     padding: 5px;
     border-radius: 5px;
 }
+
+.q1-goals {
+    display: inline-block;
+    background-color: #ab5de6;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.recruiting {
+    display: inline-block;
+    background-color: #2cc6ab;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mobile {
+    display: inline-block;
+    background-color: #ff9b00;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 
 /* /main */
